@@ -38111,10 +38111,9 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-group-elements-1 {
   min-height: 118px;
-  margin-top: 12px;
-  margin-bottom: 60px;
   height: auto;
   width: 1141px;
+  margin: 12px auto 60px;
 }
 
 .u-header .u-image-1 {
@@ -38134,6 +38133,8 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 1199px) {
   .u-header .u-group-elements-1 {
+    margin-right: initial;
+    margin-left: initial;
     width: auto;
   }
 }
