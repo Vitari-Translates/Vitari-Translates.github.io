@@ -1,0 +1,27 @@
+.comics:hover {
+  transform: scale(1.02);
+}
+
+.pulse {
+  animation: pulse 1s linear infinite;
+}
+
+.comics {
+  transition: transform 0.5s ease;
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
